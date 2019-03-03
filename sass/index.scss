@@ -1,0 +1,20 @@
+@charset 'utf-8';
+@import '_reset';
+
+//Hello world
+$max-screen: 960px;
+@media only screen and (max-width: $max-screen) {
+    .container {
+        width: 100%;
+    }
+
+    article[role="main"] {
+        float: left;
+        width: 600px / $max-screen * 100%;
+    }
+    
+    aside[role="complementary"] {
+        float: right;
+        width: 300px / $max-screen * 100%;
+    }   
+}
