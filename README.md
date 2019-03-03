@@ -1,7 +1,7 @@
 # webpack-ts-reactjs-sass
 Webpack + TypeScript + ReactJs + Sass starter project
 
-#Setup
+# Setup
 Install developement dependencies:
 ```
 npm install -D
